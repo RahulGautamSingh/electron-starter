@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World!</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="App">
+    <h1>Weather and Pollution Info</h1>
+
+    <label for="location" name="location">
+
+      Location:
+      <input class="locationInfo" id="location" name="location" />
+    </label>
+    <button class="btn">Get Info</button>
+
+
+    <div class="info hidden">
+      <h1 class="cityName">
+
+      </h1>
+      <p class="temp"></p>
+      <p class="aqi">
+
+      </p>
+    </div>
+
+    <div class="error hidden">
+      <h1></h1>
+    </div>
+
+  </div>
+  <script src="render.js"></script>
+</body>
+
+</html>

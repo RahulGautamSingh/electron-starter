@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
+  padding-top:50px;
+  background: linear-gradient(to bottom, #d1dee9, #448cc5);
+
+  font-family: 'Nunito', sans-serif;
+  color: #448cc5;
+}
+
+.locationInfo {
+  border: none;
+  height: 120%;
+  border-radius: 2px;
+  padding: 5px;
+  color: solid black;
+  font-weight: 700;
+}
+
+button {
+  border: none;
+  background: white;
+  ;
+  color: #448cc5;
+  font-size: 1.1em;
+  padding: 8px 16px;
+  position: relative;
+  left: 30px;
+  border-radius: 6px;
+
+}
+
+.info {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  ;
+  border-radius: 6px;
+  background-color: white;
+  padding: 20px 50px;
+  gap: 10px;
+  min-width: 600px;
+  height: 160px;
+}
+
+.hidden {
+  display: none;
+}
