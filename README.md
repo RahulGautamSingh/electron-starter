@@ -8,4 +8,4 @@ To use the repo:
 ->Clone repo in your IDE
 ->run npm install
 ->run npm make
-->in out folder and run the .exe file
+->in "out" folder, run the .exe file
